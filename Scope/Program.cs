@@ -24,6 +24,8 @@ namespace Scope
 
             // class Scope's static variable x retians its value 
             UseStaticVariable();
+
+            Console.WriteLine($"\nLocal x in method Main is {x}");
         }
         //Create and reinitalizes its own local vairable  x during each call
         static void UseLocalVariable()
